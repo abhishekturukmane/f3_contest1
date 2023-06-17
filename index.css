@@ -1,0 +1,66 @@
+body{
+    background-color: rgb(3, 3, 3);
+}
+h1, h2{
+    color: white;
+}
+.success {
+    /* color: green; */
+    color: rgb(14, 194, 14);
+
+  }
+  
+  .error {
+    color: red;
+  }
+ 
+  form {
+    display: flex;
+    flex-direction: row;
+    align-items: center; 
+    row-gap: 10px;
+    
+  
+   
+  }
+  
+  form label {
+    margin-right: 10px;
+    color:white;
+    margin-left: 10px;
+   
+    
+  }
+  
+  form input[type="submit"] {
+    margin-left: 10px;
+   
+   
+
+  }
+  form input{
+    background-color:transparent;
+    border-bottom: 1px solid white ;
+    padding: 8px;
+    color: white;
+  
+ 
+   
+  }
+  #subbtn{
+     margin-top:20px;
+    border-radius: 7px;
+    border: none;
+    padding: 10px;
+
+  }
+  #employees{
+    color: white;
+  }
+  .employee {
+    border: 1px solid rgb(254, 254, 254);
+    padding: 10px;
+    margin-bottom: 10px;
+   width: auto;
+   
+  }
